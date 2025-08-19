@@ -151,7 +151,7 @@ a:hover {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 200%;
+  top: 215%;
   left: 47%;
   text-align: justify;
   width: 640px;
@@ -170,7 +170,7 @@ a:hover {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 272%;
+  top: 292%;
   left: 10%;
   text-align: justify;
   width: 640px;
@@ -189,7 +189,7 @@ a:hover {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 338%;
+  top: 368%;
   left: 55%;
   text-align: justify;
   width: 640px;
@@ -208,7 +208,7 @@ a:hover {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 425%;
+  top: 450%;
   left: 5%;
   text-align: justify;
   width: 640px;
@@ -227,7 +227,7 @@ a:hover {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 495%;
+  top: 520%;
   left: 54%;
   text-align: justify;
   width: 640px;
@@ -247,7 +247,7 @@ a:hover {
   font-size: 22px;
   font-family: "Poppins", sans-serif;
   position: absolute;
-  top: 580%;
+  top: 605%;
   left: 5%;
   text-align: justify;
   width: 640px;
@@ -259,4 +259,12 @@ a:hover {
   position: absolute;
   top: 570%;
   left: 65%;
+}
+
+.sobre, .Resumo-Sobre{
+  color: #ffffff;
+  font-size: 25px;
+  font-family: "Poppins", sans-serif;
+  text-align: justify;
+  margin-bottom: 200px;
 }
