@@ -45,27 +45,27 @@
 
         <!--
 
-        <div id="Sobre" class="sobre">
+            <div id="Sobre" class="sobre">
 
-            <div class="Resumo-Sobre">
-                <p>Meu nome é Davi, tenho 18 anos e sou apaixonado por novos desafios, criatividade e tecnologia,
-                    especialmente pela área de programação. Atualmente, estou cursando Análise e Desenvolvimento de
-                    Sistemas na faculdade.
+                <div class="Resumo-Sobre">
+                    <p>Meu nome é Davi, tenho 18 anos e sou apaixonado por novos desafios, criatividade e tecnologia,
+                        especialmente pela área de programação. Atualmente, estou cursando Análise e Desenvolvimento de
+                        Sistemas na faculdade.
 
-                    Trabalhar na ADP tem sido uma experiência extremamente enriquecedora. Fui muito bem acolhido pela
-                    empresa, e meu setor tem me proporcionado grande aprendizado, oferecendo suporte, orientações e
-                    valiosas dicas no meu dia a dia. Posso afirmar que nosso setor de TI é, sem dúvida, um dos melhores,
-                    tanto pelo profissionalismo quanto pelo ambiente colaborativo.
+                        Trabalhar na ADP tem sido uma experiência extremamente enriquecedora. Fui muito bem acolhido pela
+                        empresa, e meu setor tem me proporcionado grande aprendizado, oferecendo suporte, orientações e
+                        valiosas dicas no meu dia a dia. Posso afirmar que nosso setor de TI é, sem dúvida, um dos melhores,
+                        tanto pelo profissionalismo quanto pelo ambiente colaborativo.
 
-                    Sinto-me motivado e entusiasmado com tudo que estou aprendendo, e vejo essa oportunidade como um
-                    passo importante para minha carreira futura na área de tecnologia, em uma empresa de grande porte
-                    como a ADP. O projeto de Jovem Aprendiz tem me surpreendido cada vez mais, e sou profundamente grato
-                    a todos do meu setor, que fazem parte de todo meu desenvolvimento e aprendizado. Espero continuar
-                    crescendo e contribuindo, compartilhando muitos dias de aprendizado e experiências com todos.</p>
+                        Sinto-me motivado e entusiasmado com tudo que estou aprendendo, e vejo essa oportunidade como um
+                        passo importante para minha carreira futura na área de tecnologia, em uma empresa de grande porte
+                        como a ADP. O projeto de Jovem Aprendiz tem me surpreendido cada vez mais, e sou profundamente grato
+                        a todos do meu setor, que fazem parte de todo meu desenvolvimento e aprendizado. Espero continuar
+                        crescendo e contribuindo, compartilhando muitos dias de aprendizado e experiências com todos.</p>
 
-            </div>
+                </div>
 
-            -->
+                -->
 
         </div>
 
@@ -146,10 +146,42 @@
             </div>
 
         </div>
+
+        <div class="container-toggle">
+            <div class="box1">
+                <label class="switch">
+                    <input type="checkbox" id="darkModeToggle">
+                    <span class="slider round">
+                        <h2 class="slider-text"></h2>
+                    </span>
+                </label>
+            </div>
+        </div>
+
+         <div id="projetos"  class="Texto-projetos fade-in">
+            <h2 class="ut">Automações</h2>
+            <h1 class="do">DocuSign</h1>
+            <br>
+            <p class="P">O projeto tem como objetivo desenvolver uma solução automatizada que integre o sistema de gerenciamento de incidentes ServiceNow com a plataforma de assinatura eletrônica DocuSign. A proposta é otimizar o fluxo de geração e envio de documentos para assinatura, garantindo agilidade, rastreabilidade e padronização dos processos, reduzindo a necessidade de intervenções manuais e minimizando erros operacionais.</p>
+        </div>
+
+        <div class="im-ch">
+            <img class="dr"  src="uto.png" alt="">
+        </div>
+
+
     </main>
 
 
     <script>
+
+        const toggle = document.getElementById('darkModeToggle');
+        toggle.addEventListener('change', () => {
+            document.body.classList.toggle('dark-mode');
+        });
+
+
+
         window.addEventListener('load', () => {
             const elementos = document.querySelectorAll('.fade-in');
             elementos.forEach((el, i) => {
